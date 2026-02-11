@@ -6,29 +6,37 @@ export default function ProjectDetail() {
 
   // In a real app, you've fetch this from a data file or API
   const projectData = {
-    'project_1"': {
-      title: "Secure Task 1",
-      description: "Detailed breakdown of how I built this...",
-      tech: ["React", "Node.js", "AES-256"],
-      // Add more fields like images, challenges, etc.
+    'project_1': {
+      title: "Portfolio Website",
+      about: "This website was created using React & Tailwind CSS.",
+      purpose: "To showcase my technical expertise, project history, and design philosophy in a centralized, responsive hub.",
+      tech: ["React", "Tailwind CSS", "JavaScript"],
+      image: "",
+      description: "A high-performance personal brand site featuring a component-based architecture. Leveraging Tailwind CSS for utility-first styling, the site ensures a seamless experience across all devices while maintaining a lightweight footprint."
     },
-    'project_2"': {
-      title: "Secure Task 2",
-      description: "Detailed breakdown of how I built this...",
-      tech: ["React", "Node.js", "AES-256"],
-      // Add more fields like images, challenges, etc.
+    'project_2': {
+      title: "",
+      about: "",
+      purpose: "",
+      tech: [],
+      image: "",
+      description: ""
     },
-    'project_3"': {
-      title: "Secure Task 3",
-      description: "Detailed breakdown of how I built this...",
-      tech: ["React", "Node.js", "AES-256"],
-      // Add more fields like images, challenges, etc.
+    'project_3': {
+      title: "",
+      about: "",
+      purpose: "",
+      tech: [],
+      image: "",
+      description: ""
     },
-    'project_4"': {
-      title: "Secure Task 4",
-      description: "Detailed breakdown of how I built this...",
-      tech: ["React", "Node.js", "AES-256"],
-      // Add more fields like images, challenges, etc.
+    'project_4': {
+      title: "",
+      about: "",
+      purpose: "",
+      tech: [],
+      image: "",
+      description: ""
     },
   };
 
@@ -38,7 +46,7 @@ export default function ProjectDetail() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 p-8">
-      <Link to="/" className="flex items-center gap-2 text-cyan-400 mb-8 hover:underline">
+      <Link to="/portfolio/" className="flex items-center gap-2 text-cyan-400 mb-8 hover:underline">
         <ArrowLeft size={20} /> Back to Portfolio
       </Link>
       
@@ -50,7 +58,7 @@ export default function ProjectDetail() {
       </div>
       
       <p className="text-slate-400 text-lg leading-relaxed max-w-3xl">
-        {project.description}
+        {project.about}
       </p>
     </div>
   );
