@@ -3,6 +3,9 @@ import { ArrowLeft, Github, ExternalLink, Code, Zap, Target, ChevronLeft, Chevro
 import { useState } from 'react';
 const BASE_URL = import.meta.env.BASE_URL;
 export default function ProjectDetail() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { projectId } = useParams();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
