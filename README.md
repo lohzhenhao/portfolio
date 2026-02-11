@@ -22,7 +22,9 @@ Deployment	Vercel / Netlify
 ## Getting Started
 
 If you want to run this project locally, follow these steps:
+    
     Bash
+    
     Clone the repo:
     git clone https://github.com/lohzhenhao/portfolio
 
