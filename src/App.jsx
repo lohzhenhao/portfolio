@@ -91,7 +91,7 @@ export default function Portfolio() {
               </div>
               
               <h1 className="text-7xl font-bold tracking-tight">
-                <span className="text-slate-100">Zhen Hao</span>
+                <span className="text-slate-100">Loh Zhen Hao</span>
                 <br />
                 <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-cyan-400 bg-clip-text text-transparent">
                   Developer
@@ -176,7 +176,7 @@ export default function Portfolio() {
                     <Shield className="text-cyan-400 mt-1 flex-shrink-0" size={20} />
                     <div>
                       <div className="font-semibold text-slate-300">Education</div>
-                      <div className="text-sm text-slate-500">Diploma in Cybersecurity & Digital Forensics</div>
+                      <div className="text-sm text-slate-500">Nanyang Polytechnic (Diploma in Cybersecurity & Digital Forensics (C54))</div>
                     </div>
                   </div>
                   
@@ -451,13 +451,13 @@ export default function Portfolio() {
               </p>
 
               <div className="space-y-4 pt-4">
-                <a href="mailto:jamie.developer@email.com" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group">
+                <a href="mailto:250633P@mymail.nyp.edu.sg" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-900 border border-slate-800 rounded-lg flex items-center justify-center group-hover:border-cyan-500/50 transition-colors">
                     <Mail size={20} />
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-sm text-slate-500">jamie.developer@email.com</div>
+                    <div className="text-sm text-slate-500">250633P@mymail.nyp.edu.sg</div>
                   </div>
                 </a>
 
@@ -467,7 +467,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="font-semibold">GitHub</div>
-                    <div className="text-sm text-slate-500">github.com/jamiedev</div>
+                    <div className="text-sm text-slate-500">github.com/lohzhenhao</div>
                   </div>
                 </a>
 
@@ -477,7 +477,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="font-semibold">LinkedIn</div>
-                    <div className="text-sm text-slate-500">linkedin.com/in/jamiedev</div>
+                    <div className="text-sm text-slate-500">linkedin.com/in/lohzhenhao</div>
                   </div>
                 </a>
               </div>
@@ -531,16 +531,16 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="font-mono text-sm text-slate-500">
-              © 2026 Jamie Developer. Built with React & Tailwind CSS.
+              © 2026 Loh Zhen Hao. Built with React & Tailwind CSS.
             </div>
             <div className="flex gap-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-cyan-400 transition-colors">
+              <a href="https://github.com/lohzhenhao" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-cyan-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-cyan-400 transition-colors">
+              <a href="https://linkedin.com/in/lohzhenhao" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-cyan-400 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:jamie.developer@email.com" className="text-slate-500 hover:text-cyan-400 transition-colors">
+              <a href="mailto:250633P@mymail.nyp.edu.sg" className="text-slate-500 hover:text-cyan-400 transition-colors">
                 <Mail size={20} />
               </a>
             </div>
