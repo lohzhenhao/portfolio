@@ -308,7 +308,7 @@ export default function Portfolio() {
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Project 1 */}
-              <Link to="/project/secure-task-manager" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
+              <Link to="/project/project_1" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
                 <div className="h-48 bg-gradient-to-br from-cyan-900/20 to-slate-900 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Code className="text-cyan-400/20 group-hover:text-cyan-400/40 transition-colors" size={64} />
@@ -338,7 +338,7 @@ export default function Portfolio() {
               </Link>
 
               {/* Project 2 */}
-              <div className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-emerald-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/10">
+              <Link to="/project/project_2" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-emerald-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/10">
                 <div className="h-48 bg-gradient-to-br from-emerald-900/20 to-slate-900 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Shield className="text-emerald-400/20 group-hover:text-emerald-400/40 transition-colors" size={64} />
@@ -365,10 +365,10 @@ export default function Portfolio() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Project 3 */}
-              <div className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-purple-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/10">
+              <Link to="/project/project_3" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-purple-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/10">
                 <div className="h-48 bg-gradient-to-br from-purple-900/20 to-slate-900 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Cpu className="text-purple-400/20 group-hover:text-purple-400/40 transition-colors" size={64} />
@@ -395,10 +395,10 @@ export default function Portfolio() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Project 4 */}
-              <div className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
+              <Link to="/project/project_4" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
                 <div className="h-48 bg-gradient-to-br from-cyan-900/20 via-purple-900/20 to-slate-900 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Terminal className="text-cyan-400/20 group-hover:text-cyan-400/40 transition-colors" size={64} />
@@ -424,7 +424,8 @@ export default function Portfolio() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
+
             </div>
           </div>
         </div>

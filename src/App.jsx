@@ -4,12 +4,11 @@ import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/project/:projectId" element={<ProjectDetail />} />
-            </Routes>
-        </Router>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/project/:projectId" element={<ProjectDetail />} />
+        </Routes>
     );
 }
+
 export default App;

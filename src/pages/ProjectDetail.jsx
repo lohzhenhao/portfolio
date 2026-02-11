@@ -6,13 +6,30 @@ export default function ProjectDetail() {
 
   // In a real app, you've fetch this from a data file or API
   const projectData = {
-    'secure-task-manager': {
-      title: "Secure Task Manager",
+    'project_1"': {
+      title: "Secure Task 1",
       description: "Detailed breakdown of how I built this...",
       tech: ["React", "Node.js", "AES-256"],
       // Add more fields like images, challenges, etc.
     },
-    // ... other projects
+    'project_2"': {
+      title: "Secure Task 2",
+      description: "Detailed breakdown of how I built this...",
+      tech: ["React", "Node.js", "AES-256"],
+      // Add more fields like images, challenges, etc.
+    },
+    'project_3"': {
+      title: "Secure Task 3",
+      description: "Detailed breakdown of how I built this...",
+      tech: ["React", "Node.js", "AES-256"],
+      // Add more fields like images, challenges, etc.
+    },
+    'project_4"': {
+      title: "Secure Task 4",
+      description: "Detailed breakdown of how I built this...",
+      tech: ["React", "Node.js", "AES-256"],
+      // Add more fields like images, challenges, etc.
+    },
   };
 
   const project = projectData[projectId];
