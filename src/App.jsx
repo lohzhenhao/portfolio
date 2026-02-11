@@ -461,7 +461,7 @@ export default function Portfolio() {
                   </div>
                 </a>
 
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group">
+                <a href="https://github.com/lohzhenhao" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-900 border border-slate-800 rounded-lg flex items-center justify-center group-hover:border-cyan-500/50 transition-colors">
                     <Github size={20} />
                   </div>
@@ -471,7 +471,7 @@ export default function Portfolio() {
                   </div>
                 </a>
 
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group">
+                <a href="https://linkedin.com/in/lohzhenhao" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-900 border border-slate-800 rounded-lg flex items-center justify-center group-hover:border-cyan-500/50 transition-colors">
                     <Linkedin size={20} />
                   </div>

@@ -1,16 +1,47 @@
-# React + Vite
+# My Digital Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my personal portfolio! This site is designed to showcase my journey as a developer, the projects I've built, and the skills I'm honing.
 
-Currently, two official plugins are available:
+Live Demo: https://lohzhenhao.github.io/portfolio/
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Responsive Design: Fully optimized for mobile, tablet, and desktop viewing.
 
-## React Compiler
+    Dynamic Project Gallery: A curated list of my work with links to live sites and source code.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Contact Integration: A direct way for people to reach out via [Email/LinkedIn].
 
-## Expanding the ESLint configuration
+    Performance: Built with Vite for lightning-fast load times.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+Category	Tools
+Frontend	React, Tailwind CSS, Framer Motion
+Build Tool	Vite
+Deployment	Vercel / Netlify
+## Preview
+## Getting Started
+
+If you want to run this project locally, follow these steps:
+
+    Clone the repo:
+    Bash
+
+    git clone https://github.com/yourusername/your-repo-name.git
+
+    Install dependencies:
+    Bash
+
+    npm install
+
+    Run the development server:
+    Bash
+
+    npm run dev
+
+## Let's Connect!
+
+I'm always open to discussing new projects, creative ideas, or opportunities in the tech space.
+
+    LinkedIn: linkedin.com/in/lohzhenhao
+
+    Email: 250633P@mymail.nyp.edu.sg
