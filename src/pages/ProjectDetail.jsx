@@ -14,15 +14,15 @@ export default function ProjectDetail() {
       purpose: "To showcase my technical expertise, project history, and design philosophy in a centralized, responsive hub.",
       tech: ["React", "Tailwind CSS", "JavaScript"],
       images: [
-        "/src/assets/project_1/1.png", 
-        "/src/assets/project_1/2.png", 
-        "/src/assets/project_1/3.png", 
-        "/src/assets/project_1/4.png", 
-        "/src/assets/project_1/5.png"
+        "portfolio/src/assets/project_1/1.png", 
+        "portfolio/src/assets/project_1/2.png", 
+        "portfolio/src/assets/project_1/3.png", 
+        "portfolio/src/assets/project_1/4.png", 
+        "portfolio/src/assets/project_1/5.png"
       ],
       description: "A high-performance personal brand site featuring a component-based architecture. Leveraging Tailwind CSS for utility-first styling, the site ensures a seamless experience across all devices while maintaining a lightweight footprint.",
       github: "https://github.com/lohzhenhao/portfolio",
-      demo: "https://lohzhenhao.github.io/portfolio/"
+      demo: "https://lohzhenhao.github.io/portfolio"
     },
     'project_2': {
       title: "Password Strength Analyzer",
