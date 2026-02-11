@@ -65,7 +65,7 @@ export default function ProjectDetail() {
           <h1 className="text-4xl font-bold text-slate-200">Project Not Found</h1>
           <p className="text-slate-400">The project you're looking for doesn't exist.</p>
           <Link 
-            to="/portfolio/"
+            to="/"
             className="inline-flex items-center gap-2 px-6 py-3 bg-cyan-500 text-slate-950 font-semibold rounded-lg hover:bg-cyan-400 transition-all duration-300"
           >
             <ArrowLeft size={20} /> Back to Home
@@ -313,7 +313,7 @@ export default function ProjectDetail() {
         {/* Bottom Navigation */}
         <div className="mt-16 pt-8 border-t border-slate-800">
           <Link 
-            to="/portfolio/"
+            to="/"
             className="inline-flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group"
           >
             <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" />
