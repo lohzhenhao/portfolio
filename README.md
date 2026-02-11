@@ -22,20 +22,14 @@ Deployment	Vercel / Netlify
 ## Getting Started
 
 If you want to run this project locally, follow these steps:
-
-    Clone the repo:
     Bash
-
-    git clone https://github.com/yourusername/your-repo-name.git
+    Clone the repo:
+    git clone https://github.com/lohzhenhao/portfolio
 
     Install dependencies:
-    Bash
-
     npm install
 
     Run the development server:
-    Bash
-
     npm run dev
 
 ## Let's Connect!
