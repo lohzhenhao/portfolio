@@ -6,7 +6,7 @@ export default function ProjectDetail() {
   const { projectId } = useParams();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const BASE_URL = import.meta.env.BASE_URL;
-  // In a real app, you'd fetch this from a data file or API
+
   const projectData = {
     'project_1': {
       title: "Portfolio Website",
