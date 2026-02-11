@@ -1,12 +1,28 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { Mail, Github, Linkedin, Code, Shield, Terminal, Cpu, Database, Lock } from 'lucide-react';
 
 export default function Portfolio() {
   const [scrollY, setScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState('home');
+  const location = useLocation();
 
   useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const scrollTo = params.get('scrollTo');
+    
+    if (scrollTo) {
+      // Small timeout ensures the DOM has rendered before trying to scroll
+      setTimeout(() => {
+        const element = document.getElementById(scrollTo);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+          // Clear the URL parameter so it doesn't re-scroll on refresh
+          window.history.replaceState({}, '', window.location.pathname);
+        }
+      }, 100);
+    }
+
     const handleScroll = () => {
       setScrollY(window.scrollY);
       
@@ -25,7 +41,7 @@ export default function Portfolio() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [location]);
 
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
