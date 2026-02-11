@@ -93,4 +93,4 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         .overflow-x-auto::-webkit-scrollbar-thumb:hover {
           background: rgb(71, 85, 105);
         }
-      `})]})}function Np(){return o.jsxs(yv,{children:[o.jsx(Xf,{path:"/",element:o.jsx(Ep,{})}),o.jsx(Xf,{path:"/project/:projectId",element:o.jsx(zp,{})})]})}vy.createRoot(document.getElementById("root")).render(o.jsx(M.StrictMode,{children:o.jsx(Yv,{children:o.jsx(Np,{})})}));
+      `})]})}function Np(){return o.jsxs(yv,{children:[o.jsx(Xf,{path:"/",element:o.jsx(Ep,{})}),o.jsx(Xf,{path:"/project/:projectId",element:o.jsx(zp,{})})]})}vy.createRoot(document.getElementById("root")).render(o.jsx(M.StrictMode,{children:o.jsx(Yv,{basename:"/portfolio/",children:o.jsx(Np,{})})}));
