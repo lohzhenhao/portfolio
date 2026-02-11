@@ -1,11 +1,8 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Github, ExternalLink, Code, Zap, Target, ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useLayoutEffect } from 'react';
 const BASE_URL = import.meta.env.BASE_URL;
 export default function ProjectDetail() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   const { projectId } = useParams();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -94,6 +91,9 @@ export default function ProjectDetail() {
   const goToImage = (index) => {
     setCurrentImageIndex(index);
   };
+  useLayoutEffect(() => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+}, [projectId]);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 overflow-x-hidden">
@@ -121,7 +121,7 @@ export default function ProjectDetail() {
       <div className="relative max-w-5xl mx-auto px-6 py-12">
         {/* Back Button */}
         <Link 
-          to="/?scrollTo=home"
+          to="/?scrollTo=projects"
           className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors mb-12 group"
         >
           <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
@@ -323,7 +323,6 @@ export default function ProjectDetail() {
           </Link>
         </div>
       </div>
-
       {/* Styles */}
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Sora:wght@300;400;600;700&display=swap');
