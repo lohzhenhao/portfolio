@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Github, ExternalLink, Code, Zap, Target, ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState, useLayoutEffect } from 'react';
+import { useState, useEffect, useLayoutEffect } from 'react';
 const BASE_URL = import.meta.env.BASE_URL;
 export default function ProjectDetail() {
   const { projectId } = useParams();
