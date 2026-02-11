@@ -118,7 +118,7 @@ export default function ProjectDetail() {
       <div className="relative max-w-5xl mx-auto px-6 py-12">
         {/* Back Button */}
         <Link 
-          to="/"
+          to="/?scrollTo=home"
           className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors mb-12 group"
         >
           <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
@@ -312,7 +312,7 @@ export default function ProjectDetail() {
         {/* Bottom Navigation */}
         <div className="mt-16 pt-8 border-t border-slate-800">
           <Link 
-            to="/"
+            to="/?scrollTo=projects"
             className="inline-flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors group"
           >
             <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" />
