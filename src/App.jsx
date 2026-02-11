@@ -5,8 +5,8 @@ import ProjectDetail from './pages/ProjectDetail';
 function App() {
     return (
         <Routes>
-            <Route path="/portfolio/" element={<Home />} />
-            <Route path="/portfolio/project/:projectId" element={<ProjectDetail />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/project/:projectId" element={<ProjectDetail />} />
         </Routes>
     );
 }
