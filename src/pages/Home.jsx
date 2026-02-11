@@ -308,7 +308,7 @@ export default function Portfolio() {
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Project 1 */}
-              <Link to="/project/secure-task-manager" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
+              <Link to="/project/ProjectDetail.jsx" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
                 <div className="h-48 bg-gradient-to-br from-cyan-900/20 to-slate-900 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Code className="text-cyan-400/20 group-hover:text-cyan-400/40 transition-colors" size={64} />
