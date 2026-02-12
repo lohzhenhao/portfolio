@@ -332,22 +332,22 @@ export default function Portfolio() {
                 </div>
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-semibold text-slate-200 group-hover:text-cyan-400 transition-colors">
-                    Secure Task Manager
+                    Portfolio Website
                   </h3>
                   <p className="text-slate-400 leading-relaxed">
-                    A full-stack task management application with end-to-end encryption, 
-                    built with React and Node.js. Features include secure authentication, 
-                    real-time updates, and responsive design.
+                    A sophisticated, high-performance portfolio application rebuilt using React and Tailwind CSS. 
+                    This iteration transitions from vanilla web technologies to a modern component-based architecture, 
+                    featuring custom hooks for scroll-spy navigation and a dynamic, hardware-accelerated UI.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 text-sm rounded-full border border-cyan-500/30">
                       React
                     </span>
                     <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 text-sm rounded-full border border-cyan-500/30">
-                      Node.js
+                      Tailwind CSS
                     </span>
                     <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 text-sm rounded-full border border-cyan-500/30">
-                      Encryption
+                      HTML5
                     </span>
                   </div>
                 </div>
@@ -362,22 +362,24 @@ export default function Portfolio() {
                 </div>
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-semibold text-slate-200 group-hover:text-emerald-400 transition-colors">
-                    Password Strength Analyzer
+                    Table Tennis CCA Website (Academic)
                   </h3>
                   <p className="text-slate-400 leading-relaxed">
-                    An interactive web tool that analyzes password strength using advanced algorithms. 
-                    Provides real-time feedback and suggestions for creating secure passwords with 
-                    beautiful visualizations.
+                    A basic website built from scratch using vanilla HTML, CSS, and JavaScript. 
+                    Features smooth animations, responsive design, and a focus on clean, accessible code.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-sm rounded-full border border-emerald-500/30">
-                      JavaScript
+                      HTML5
                     </span>
                     <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-sm rounded-full border border-emerald-500/30">
                       CSS3
                     </span>
                     <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-sm rounded-full border border-emerald-500/30">
-                      Security
+                      JavaScript
+                    </span>
+                    <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-sm rounded-full border border-emerald-500/30">
+                      BootStrap
                     </span>
                   </div>
                 </div>
@@ -392,51 +394,38 @@ export default function Portfolio() {
                 </div>
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-semibold text-slate-200 group-hover:text-purple-400 transition-colors">
-                    Network Monitor Dashboard
+                    Group 4 (Academic)
                   </h3>
                   <p className="text-slate-400 leading-relaxed">
-                    A real-time network monitoring dashboard that visualizes traffic patterns and 
-                    security events. Built with modern web technologies and data visualization libraries 
-                    for intuitive insights.
+                    A Flask base website with SQLite3 database to bridge the gap between the youth and elderly.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
-                      React
-                    </span>
-                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
-                      D3.js
-                    </span>
-                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
-                      WebSocket
-                    </span>
-                  </div>
-                </div>
-              </Link>
-
-              {/* Project 4 */}
-              <Link to="/project/project_4" className="group bg-slate-900 border border-slate-800 rounded-lg overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10">
-                <div className="h-48 bg-gradient-to-br from-cyan-900/20 via-purple-900/20 to-slate-900 relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Terminal className="text-cyan-400/20 group-hover:text-cyan-400/40 transition-colors" size={64} />
-                  </div>
-                </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-2xl font-semibold text-slate-200 group-hover:text-cyan-400 transition-colors">
-                    Portfolio Website v1
-                  </h3>
-                  <p className="text-slate-400 leading-relaxed">
-                    My first portfolio website built from scratch using vanilla HTML, CSS, and JavaScript. 
-                    Features smooth animations, responsive design, and a focus on clean, accessible code.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 text-sm rounded-full border border-cyan-500/30">
                       HTML5
                     </span>
-                    <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 text-sm rounded-full border border-cyan-500/30">
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
                       CSS3
                     </span>
-                    <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 text-sm rounded-full border border-cyan-500/30">
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
                       JavaScript
+                    </span>
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
+                      BootStrap
+                    </span>
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
+                      Python
+                    </span>
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
+                      Flask
+                    </span>
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
+                      Vercel
+                    </span>
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
+                      Turso
+                    </span>
+                    <span className="px-3 py-1 bg-purple-500/10 text-purple-400 text-sm rounded-full border border-purple-500/30">
+                      Encryption
                     </span>
                   </div>
                 </div>

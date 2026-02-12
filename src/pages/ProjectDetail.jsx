@@ -11,7 +11,7 @@ export default function ProjectDetail() {
       title: "Portfolio Website",
       about: "This website was created using React & Tailwind CSS.",
       purpose: "To showcase my technical expertise, project history, and design philosophy in a centralized, responsive hub.",
-      tech: ["React", "Tailwind CSS", "JavaScript"],
+      tech: ["React", "Tailwind CSS", "HTML5"],
       images: [
         `${BASE_URL}assets/project_1/1.png`, 
         `${BASE_URL}assets/project_1/2.png`, 
@@ -24,34 +24,28 @@ export default function ProjectDetail() {
       demo: "https://lohzhenhao.github.io/portfolio"
     },
     'project_2': {
-      title: "Password Strength Analyzer",
-      about: "An interactive web tool that analyzes password strength using advanced algorithms.",
-      purpose: "To help users create more secure passwords through real-time feedback and educational insights.",
-      tech: ["JavaScript", "CSS3", "Security Algorithms"],
-      images: [],
-      description: "Built with vanilla JavaScript, this tool provides instant visual feedback on password strength. Features include entropy calculation, pattern detection, and personalized recommendations for improvement.",
-      github: "#",
-      demo: "#"
+      title: "Table Tennis CCA Website (Academic)",
+      about: "This website was created using HTML, CSS and JavaScript.",
+      purpose: 'To streamline club communication and recruitment. The project demonstrates the ability to transform a physical information pamphlet into an interactive, accessible digital platform while maintaining a cohesive "sporty" brand identity.',
+      tech: ["HTML5", "CSS3", "JavaScript", "BootStrap"],
+      images: [
+
+      ],
+      description: "The website features a dynamic landing page with a hero section, an 'About Us' page detailing the club's history, a 'Training Schedule' table, and a 'Gallery' showcasing past tournaments. A key technical highlight is the integration of a responsive Bootstrap navigation bar and a functional contact form, ensuring a seamless user experience regardless of the device used.",
+      github: "https://github.com/lohzhenhao/Table-Tennis-CCA-Website-Academic-2025",
+      demo: "https://lohzhenhao.github.io/Table-Tennis-CCA-Website-Academic-2025/"
     },
     'project_3': {
-      title: "Network Monitor Dashboard",
-      about: "A real-time network monitoring dashboard that visualizes traffic patterns and security events.",
-      purpose: "To provide network administrators with intuitive, actionable insights into network health and security.",
-      tech: ["React", "D3.js", "WebSocket"],
-      images: [],
-      description: "Real-time data visualization dashboard with live traffic monitoring, threat detection alerts, and historical trend analysis. Built with React and D3.js for smooth, performant visualizations.",
-      github: "#",
-      demo: "#"
-    },
-    'project_4': {
-      title: "Portfolio Website v1",
-      about: "My first portfolio website built from scratch using vanilla HTML, CSS, and JavaScript.",
-      purpose: "To establish my online presence and demonstrate foundational web development skills.",
-      tech: ["HTML5", "CSS3", "JavaScript"],
-      images: [],
-      description: "A fully responsive portfolio showcasing clean code architecture, smooth animations, and accessibility best practices. Built without frameworks to demonstrate core web development fundamentals.",
-      github: "#",
-      demo: "#"
+      title: "Group 4 (Academic)",
+      about: "",
+      purpose: "",
+      tech: ["HTML5", "CSS3", "JavaScript", "BootStrap","Python", "Flask", "Vercel", "Turso", "Encryption"],
+      images: [
+
+      ],
+      description: "My part was to make a friends social function and messaging features with End-to-End Encryption",
+      github: "",
+      demo: ""
     },
   };
 
